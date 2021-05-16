@@ -4,7 +4,7 @@
     desc "Simple cli to manage Flutter SDK versions per project"
     homepage "https://github.com/Flutterando/slidy"
     url "https://github.com/Flutterando/slidy/archive/3.2.2.tar.gz"
-    sha256 "3e870dc4ce11ea3f3068e69f1cdcd72a8fd868cfc848411fbaf106ce857e2eac"
+    sha256 "af659c363f7b8ad029ed03cfa29b75de086d3430ec137b1b36858b020d07fe20"
     license "MIT"
   
     depends_on "dart-lang/dart/dart" => :build
