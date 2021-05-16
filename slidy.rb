@@ -1,6 +1,6 @@
 
   
-  class SlidyAT200Dev8 < Formula
+  class Slidy < Formula
     desc "Simple cli to manage Flutter SDK versions per project"
     homepage "https://github.com/Flutterando/slidy"
     url "https://github.com/Flutterando/slidy/archive/3.2.2.tar.gz"
