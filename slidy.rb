@@ -3,8 +3,8 @@
   class Slidy < Formula
     desc "Simple cli to manage Flutter SDK versions per project"
     homepage "https://github.com/Flutterando/slidy"
-    url "https://github.com/Flutterando/slidy/archive/3.2.2.tar.gz"
-    sha256 "af659c363f7b8ad029ed03cfa29b75de086d3430ec137b1b36858b020d07fe20"
+    url "https://github.com/Flutterando/slidy/archive/4.0.0+3.tar.gz"
+    sha256 "51efd5c70df8252c2b5586fd2d53f37401727a57e51cc71d17c95824d2de8238"
     license "MIT"
   
     depends_on "dart-lang/dart/dart" => :build
