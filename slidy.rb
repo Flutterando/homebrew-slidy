@@ -35,14 +35,9 @@ def install
     @_dart ||= Formula["dart-lang/dart/dart"].libexec/"bin"
   end
 
-  def _version
-    @_version ||= YAML.safe_load(File.read("pubspec.yaml"))["version"]
-  end
-
   def _install_native_executable
-    system _dart/"dart", "compile", "exe", "-Dversion=#{_version}",
-           "bin/main.dart", "-o", "slidy"
-    bin.install "fvm"
+    system _dart/"dart", "compile", "exe", "bin/main.dart", "-o", "slidy"
+    bin.install "slidy"
   end
 
   def _install_script_snapshot
