@@ -3,8 +3,8 @@
   class Slidy < Formula
     desc "Pipeline, Template generator and package manager"
     homepage "https://github.com/Flutterando/slidy"
-    url "https://github.com/Flutterando/slidy/archive/4.0.0+25.tar.gz"
-    sha256 "78ec10881a3745bcc737678cd09009d6ef012a3019a91d0da64abff538b4391d"
+    url "https://github.com/Flutterando/slidy/archive/4.0.0+26.tar.gz"
+    sha256 "15a06c49e863967b08662815f19690c3826fb6fe59d54c2a49b3e2727a17085f"
     license "MIT"
   
     depends_on "dart-lang/dart/dart" => :build
