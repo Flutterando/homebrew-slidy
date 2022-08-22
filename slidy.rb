@@ -1,7 +1,7 @@
 
   
   class Slidy < Formula
-    desc "Simple cli to manage Flutter SDK versions per project"
+    desc "Pipeline, Template generator and package manager"
     homepage "https://github.com/Flutterando/slidy"
     url "https://github.com/Flutterando/slidy/archive/4.0.0+24.tar.gz"
     sha256 "b4b0aa1b5404f49f58c50ecfd166e15dfa7e81d36a465600d3bc4d4a8f3fe638"
