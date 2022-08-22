@@ -4,7 +4,7 @@
     desc "Pipeline, Template generator and package manager"
     homepage "https://github.com/Flutterando/slidy"
     url "https://github.com/Flutterando/slidy/archive/4.0.0+24.tar.gz"
-    sha256 "b4b0aa1b5404f49f58c50ecfd166e15dfa7e81d36a465600d3bc4d4a8f3fe638"
+    sha256 "10ca59da6b4a526ec65b40556a20dccd10030f04cae5807d597db8b7e7b854ad"
     license "MIT"
   
     depends_on "dart-lang/dart/dart" => :build
