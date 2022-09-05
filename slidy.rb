@@ -15,6 +15,7 @@ def install
     ENV["PUB_ENVIRONMENT"] = "homebrew:fvm"
 
     system _dart/"dart", "pub", "get"
+    system _dart/"dart", "run", "build_runner", "build"
     # Build a native-code executable on 64-bit systems only. 32-bit Dart
     # doesn't support this.
     if Hardware::CPU.is_64_bit?
